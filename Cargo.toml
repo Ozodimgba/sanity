@@ -1,0 +1,20 @@
+[package]
+name = "sanity"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true 
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0" 
+syn = { version = "2.0", features = ["full", "parsing", "extra-traits"] }
+
+serde_json = "1.0" 
+serde = { version = "1.0", features = ["derive"] }
+
+# CPISSSSSS
+pinocchio = "0.8.4"
+
+five8_const = "0.1.4"
